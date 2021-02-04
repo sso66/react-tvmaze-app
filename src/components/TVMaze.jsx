@@ -23,7 +23,7 @@ export default function TVMaze() {
                             color: '#FFFFFF',
                             textAlign: 'left', 
                         }} >
-                        <h3>TVMaze-Axios API request from: {baseURL}</h3>                     
+                        <h3>RESTful-Axios API request from: {baseURL}</h3>                     
                         <p>Response: {show.show.url}</p>
                         <p>ID: {show.show.id}</p>
                         <p>Name: {show.show.name}</p>

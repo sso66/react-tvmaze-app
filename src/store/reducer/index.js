@@ -7,19 +7,19 @@ export const initialState = {
 
 export const reducer = (state, action) => {
   switch (action.type) {
-    case "SEARCH_MOVIES_REQUEST":
+    case "SEARCH_REQUEST":
       return {
         ...state,
         loading: true,
         errorMessage: null
       };
-    case "SEARCH_MOVIES_SUCCESS":
+    case "SEARCH_SUCCESS":
       return {
         ...state,
         loading: false,
         movies: action.payload
       };
-    case "SEARCH_MOVIES_FAILURE":
+    case "SEARCH_FAILURE":
       return {
         ...state,
         loading: false,
